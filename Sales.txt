@@ -1,518 +1,125 @@
-Hotel Name,Star Rating,City,Country,Region,Distance from Toronto (km),Price per Night (USD)
-The Fairmont Royal York,5,Toronto,Canada,North America,0,450
-Niagara Parkway Hotel,4,Niagara Falls,Canada,North America,120,220
-The Delta Hotels by Marriott,4,Montreal,Canada,North America,330,280
-Banff Springs Hotel,5,Banff,Canada,North America,2150,380
-Hotel Vancouver,5,Vancouver,Canada,North America,3300,420
-The Ritz-Carlton Montreal,5,Montreal,Canada,North America,330,520
-Chateau Lake Louise,5,Lake Louise,Canada,North America,2200,450
-Tremblant Resort,4,Tremblant,Canada,North America,550,320
-Prince of Wales Hotel,4,Waterton,Canada,North America,2050,280
-Kelowna Prestige Hotel,4,Kelowna,Canada,North America,2900,260
-The Plaza Hotel,5,New York City,USA,North America,560,550
-The Beverly Hilton,5,Los Angeles,USA,North America,3400,480
-The Ritz-Carlton San Francisco,5,San Francisco,USA,North America,3500,520
-Four Seasons Resort Maui,5,Wailea,USA,North America,5100,650
-The Fairmont Scottsdale Princess,5,Scottsdale,USA,North America,2900,420
-Park Hyatt Miami,5,Miami,USA,North America,1800,380
-The Broadmoor,5,Colorado Springs,USA,North America,2400,350
-Bellagio Las Vegas,5,Las Vegas,USA,North America,3000,420
-The Ritz-Carlton Chicago,5,Chicago,USA,North America,900,480
-JW Marriott Phoenix,5,Phoenix,USA,North America,2850,400
-The Grand Hotel Brighton,4,Brighton,UK,Europe,5300,320
-The Ritz Hotel London,5,London,UK,Europe,5400,580
-Claridge's Hotel,5,London,UK,Europe,5400,560
-The Savoy London,5,London,UK,Europe,5400,540
-Four Seasons Hotel Paris,5,Paris,France,Europe,5700,620
-Le Meurice Paris,5,Paris,France,Europe,5700,600
-Hôtel de Crillon,5,Paris,France,Europe,5700,580
-Badrutt's Palace St Moritz,5,St. Moritz,Switzerland,Europe,6100,750
-Kulm Hotel St Moritz,5,St. Moritz,Switzerland,Europe,6100,700
-Chedi Andermatt,5,Andermatt,Switzerland,Europe,6200,650
-Villa d'Este Como,5,Como,Italy,Europe,6300,720
-The Gritti Palace Venice,5,Venice,Italy,Europe,6400,680
-Cipriani Venice,5,Venice,Italy,Europe,6400,700
-Hotel Danieli Venice,4,Venice,Italy,Europe,6400,520
-Rocco Forte Villa D'Este,5,Como,Italy,Europe,6300,690
-Belmond Villa San Michele,5,Florence,Italy,Europe,6450,640
-Hotel Savoy Florence,5,Florence,Italy,Europe,6450,580
-Excelsior Rome,5,Rome,Italy,Europe,6500,620
-The Hassler Roma,5,Rome,Italy,Europe,6500,600
-Hotel de la Paz,4,Rome,Italy,Europe,6500,280
-Mandarin Oriental Barcelona,5,Barcelona,Spain,Europe,5900,520
-Hotel Arts Barcelona,5,Barcelona,Spain,Europe,5900,480
-The Ritz Barcelona,5,Barcelona,Spain,Europe,5900,460
-Mercer Hotel Barcelona,4,Barcelona,Spain,Europe,5900,380
-Casa Camper Barcelona,3,Barcelona,Spain,Europe,5900,220
-Palacio de Moncada,4,Madrid,Spain,Europe,5800,340
-Hotel Ritz Madrid,5,Madrid,Spain,Europe,5800,540
-Adlon Kempinski Berlin,5,Berlin,Germany,Europe,6000,480
-Hotel de Rome Berlin,5,Berlin,Germany,Europe,6000,520
-Brenner's Park Hotel Baden-Baden,5,Baden-Baden,Germany,Europe,6100,620
-Vier Jahreszeiten Hamburg,5,Hamburg,Germany,Europe,6050,500
-Hotel Taschenbergpalais Dresden,5,Dresden,Germany,Europe,6200,420
-Amsterdam's Best Hotels,5,Amsterdam,Netherlands,Europe,5850,460
-Waldorf Astoria Amsterdam,5,Amsterdam,Netherlands,Europe,5850,520
-Pulitzer Amsterdam,4,Amsterdam,Netherlands,Europe,5850,380
-The Dylan Amsterdam,4,Amsterdam,Netherlands,Europe,5850,340
-Grand Hotel Stockholm,5,Stockholm,Sweden,Europe,6250,480
-Hotel Esplanade Stockholm,4,Stockholm,Sweden,Europe,6250,380
-Hotel Diplomat Stockholm,4,Stockholm,Sweden,Europe,6250,340
-Sofitel Grand Sopot,4,Sopot,Poland,Europe,6150,280
-Copacabana Palace,5,Rio de Janeiro,Brazil,South America,7900,420
-Belmond Copacabana Palace,5,Rio de Janeiro,Brazil,South America,7900,480
-Hotel Fasano Rio,5,Rio de Janeiro,Brazil,South America,7900,460
-Emiliano Hotel Rio,4,Rio de Janeiro,Brazil,South America,7900,320
-Pestana Rio Atlantica,4,Rio de Janeiro,Brazil,South America,7900,280
-Hyatt Centric São Paulo,4,São Paulo,Brazil,South America,8100,340
-Unique Hotel São Paulo,5,São Paulo,Brazil,South America,8100,420
-Tivoli São Paulo,4,São Paulo,Brazil,South America,8100,300
-Alvear Palace Hotel,5,Buenos Aires,Argentina,South America,8600,520
-Fierro Hotel Buenos Aires,4,Buenos Aires,Argentina,South America,8600,360
-Fierro Buenos Aires,4,Buenos Aires,Argentina,South America,8600,350
-Home Hotel Buenos Aires,4,Buenos Aires,Argentina,South America,8600,380
-Fierro Buenos Aires Boutique,3,Buenos Aires,Argentina,South America,8600,240
-The Singular Santiago,5,Santiago,Chile,South America,8900,420
-Singular Santiago,5,Santiago,Chile,South America,8900,400
-Lastarria Boutique Hotel,4,Santiago,Chile,South America,8900,300
-Belmond Hotel Monasterio,5,Cusco,Peru,South America,9200,480
-Sanctuary Lodge Machu Picchu,5,Aguas Calientes,Peru,South America,9400,520
-Peruvian Hotel Cusco,3,Cusco,Peru,South America,9200,180
-Andean Explorer Luxury Train,5,Cusco,Peru,South America,9200,560
-Mallorca Hotel,3,La Paz,Bolivia,South America,9800,160
-Las Olas Beach Resort,4,Cartagena,Colombia,South America,7400,320
-Charleston Santa Cartagena,4,Cartagena,Colombia,South America,7400,380
-Angsana Laguna Phuket,4,Phuket,Thailand,Asia,11200,220
-Banyan Tree Phuket,5,Phuket,Thailand,Asia,11200,480
-Hilton Phuket Arcadia Resort,4,Phuket,Thailand,Asia,11200,260
-Centara Grand Krabi,5,Krabi,Thailand,Asia,11300,380
-Amanpuri Resort,5,Phuket,Thailand,Asia,11200,620
-Amari Phuket,4,Phuket,Thailand,Asia,11200,320
-Hyatt Regency Bangkok,5,Bangkok,Thailand,Asia,11400,420
-The Peninsula Bangkok,5,Bangkok,Thailand,Asia,11400,520
-Mandarin Oriental Bangkok,5,Bangkok,Thailand,Asia,11400,580
-Dusit Thani Bangkok,5,Bangkok,Thailand,Asia,11400,480
-Four Seasons Bangkok,5,Bangkok,Thailand,Asia,11400,540
-Bangkok Marriott Resort,4,Bangkok,Thailand,Asia,11400,360
-Hilton Bangkok,4,Bangkok,Thailand,Asia,11400,320
-Amari Watergate Bangkok,4,Bangkok,Thailand,Asia,11400,300
-Shama Pattaya,3,Pattaya,Thailand,Asia,11600,160
-Dragon Palace Resort,3,Pattaya,Thailand,Asia,11600,140
-Centara Mirage Beach Resort,4,Pattaya,Thailand,Asia,11600,220
-Oriental Mandarin Singapore,5,Singapore,Singapore,Asia,10600,520
-Marina Bay Sands Singapore,5,Singapore,Singapore,Asia,10600,580
-Raffles Hotel Singapore,5,Singapore,Singapore,Asia,10600,640
-Four Seasons Singapore,5,Singapore,Singapore,Asia,10600,560
-Fullerton Hotel Singapore,5,Singapore,Singapore,Asia,10600,520
-Mandarin Oriental Singapore,5,Singapore,Singapore,Asia,10600,540
-Goodwood Park Hotel,4,Singapore,Singapore,Asia,10600,420
-Conrad Centennial Singapore,5,Singapore,Singapore,Asia,10600,480
-The Peninsula Tokyo,5,Tokyo,Japan,Asia,10800,640
-Hotel New Otani Tokyo,5,Tokyo,Japan,Asia,10800,520
-Four Seasons Tokyo,5,Tokyo,Japan,Asia,10800,600
-Mandarin Oriental Tokyo,5,Tokyo,Japan,Asia,10800,620
-Imperial Hotel Tokyo,4,Tokyo,Japan,Asia,10800,420
-Hilton Tokyo,4,Tokyo,Japan,Asia,10800,380
-Park Hyatt Tokyo,5,Tokyo,Japan,Asia,10800,560
-Aman Tokyo,5,Tokyo,Japan,Asia,10800,580
-Akasaka Excel Hotel Tokyu,3,Tokyo,Japan,Asia,10800,280
-Hotel Gracery Shinjuku,3,Tokyo,Japan,Asia,10800,220
-Kimpton Hotel Bucharest,4,Bucharest,Romania,Europe,6350,300
-Athenee Palace Hotel,5,Bucharest,Romania,Europe,6350,420
-Four Seasons Beijing,5,Beijing,China,Asia,11000,480
-China World Summit Wing,5,Beijing,China,Asia,11000,520
-Peninsula Beijing,5,Beijing,China,Asia,11000,560
-Raffles Beijing Hotel,5,Beijing,China,Asia,11000,540
-Mandarin Oriental Shanghai,5,Shanghai,China,Asia,10950,520
-Peninsula Shanghai,5,Shanghai,China,Asia,10950,540
-Fairmont Peace Hotel Shanghai,5,Shanghai,China,Asia,10950,480
-Grand Hyatt Shanghai,5,Shanghai,China,Asia,10950,460
-Waldorf Astoria Shanghai,5,Shanghai,China,Asia,10950,500
-Pudong Shangri-La Shanghai,5,Shanghai,China,Asia,10950,420
-Jing An Shangri-La Shanghai,5,Shanghai,China,Asia,10950,400
-InterContinental Shanghai,4,Shanghai,China,Asia,10950,360
-Sofitel Shanghai,4,Shanghai,China,Asia,10950,320
-Renaissance Shanghai,3,Shanghai,China,Asia,10950,240
-Hong Kong Mandarin Oriental,5,Hong Kong,Hong Kong,Asia,11100,620
-The Peninsula Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,660
-Four Seasons Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,600
-Conrad Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,580
-Ritz-Carlton Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,640
-Intercontinental Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,520
-Island Shangri-La Hong Kong,5,Hong Kong,Hong Kong,Asia,11100,540
-Sheraton Hong Kong,4,Hong Kong,Hong Kong,Asia,11100,420
-Hyatt Regency Hong Kong,4,Hong Kong,Hong Kong,Asia,11100,400
-Accor Hong Kong,3,Hong Kong,Hong Kong,Asia,11100,280
-Amanresorts New Delhi,5,Delhi,India,Asia,12100,480
-Imperial New Delhi,5,Delhi,India,Asia,12100,420
-Leela New Delhi,5,Delhi,India,Asia,12100,520
-Oberoi New Delhi,5,Delhi,India,Asia,12100,460
-Taj Palace Delhi,5,Delhi,India,Asia,12100,500
-Hyatt Regency Delhi,4,Delhi,India,Asia,12100,340
-JW Marriott Delhi,4,Delhi,India,Asia,12100,360
-ITC Grand Chola Chennai,5,Chennai,India,Asia,12800,380
-Leela Mumbai,5,Mumbai,India,Asia,12400,480
-Oberoi Mumbai,5,Mumbai,India,Asia,12400,520
-JW Marriott Mumbai,5,Mumbai,India,Asia,12400,420
-Four Seasons Mumbai,5,Mumbai,India,Asia,12400,560
-Taj Mumbai,5,Mumbai,India,Asia,12400,540
-Grand Hyatt Mumbai,4,Mumbai,India,Asia,12400,360
-Hilton Mumbai,4,Mumbai,India,Asia,12400,320
-Amanresorts Jaipur,5,Jaipur,India,Asia,12300,420
-Oberoi Udaipur,5,Udaipur,India,Asia,12500,480
-Taj Lake Palace Udaipur,5,Udaipur,India,Asia,12500,540
-Park Hyatt Goa,5,Goa,India,Asia,12900,400
-Leela Goa,5,Goa,India,Asia,12900,420
-Taj Exotica Goa,4,Goa,India,Asia,12900,380
-Inter-Continental Hanoi,5,Hanoi,Vietnam,Asia,11600,380
-Metropole Hanoi,5,Hanoi,Vietnam,Asia,11600,420
-Pan Pacific Hanoi,5,Hanoi,Vietnam,Asia,11600,360
-Hotel Continental Saigon,5,Ho Chi Minh City,Vietnam,Asia,11800,340
-Park Hyatt Saigon,5,Ho Chi Minh City,Vietnam,Asia,11800,420
-Intercontinental Saigon,5,Ho Chi Minh City,Vietnam,Asia,11800,400
-Renaissance River Side Saigon,4,Ho Chi Minh City,Vietnam,Asia,11800,320
-Hilton Saigon,4,Ho Chi Minh City,Vietnam,Asia,11800,300
-Four Seasons Bali,5,Denpasar,Indonesia,Asia,11300,520
-Amanusa Bali,5,Denpasar,Indonesia,Asia,11300,620
-Aman Uluwatu Bali,5,Ubud,Indonesia,Asia,11400,580
-Grand Hyatt Bali,5,Bali,Indonesia,Asia,11300,480
-Intercontinental Bali,5,Bali,Indonesia,Asia,11300,420
-Hilton Bali,4,Bali,Indonesia,Asia,11300,320
-Novotel Bali,3,Bali,Indonesia,Asia,11300,180
-Pullman Bali,3,Bali,Indonesia,Asia,11300,160
-Four Seasons Seoul,5,Seoul,South Korea,Asia,10900,480
-Shilla Seoul,5,Seoul,South Korea,Asia,10900,520
-Lotte World Hotel Seoul,5,Seoul,South Korea,Asia,10900,400
-Park Hyatt Seoul,5,Seoul,South Korea,Asia,10900,540
-Fairmont Seoul,5,Seoul,South Korea,Asia,10900,560
-JW Marriott Seoul,4,Seoul,South Korea,Asia,10900,360
-Hilton Seoul,4,Seoul,South Korea,Asia,10900,320
-Sofitel Seoul,3,Seoul,South Korea,Asia,10900,240
-Sydney Opera House Hotel,5,Sydney,Australia,Oceania,16000,520
-Park Hyatt Sydney,5,Sydney,Australia,Oceania,16000,600
-Four Seasons Sydney,5,Sydney,Australia,Oceania,16000,560
-InterContinental Sydney,5,Sydney,Australia,Oceania,16000,480
-Shangri-La Sydney,5,Sydney,Australia,Oceania,16000,420
-Hyatt Regency Sydney,4,Sydney,Australia,Oceania,16000,360
-Hilton Sydney,4,Sydney,Australia,Oceania,16000,320
-Sofitel Sydney,4,Sydney,Australia,Oceania,16000,300
-Crown Metropol Melbourne,5,Melbourne,Australia,Oceania,16400,420
-Hilton Melbourne,4,Melbourne,Australia,Oceania,16400,300
-Langham Melbourne,5,Melbourne,Australia,Oceania,16400,480
-Four Seasons Perth,5,Perth,Australia,Oceania,16800,400
-Hilton Perth,4,Perth,Australia,Oceania,16800,280
-Hilton Cairns,4,Cairns,Australia,Oceania,15800,260
-Kempinski Hotel Fiji,5,Nadi,Fiji,Oceania,15200,480
-Sheraton Fiji Resort,4,Nadi,Fiji,Oceania,15200,320
-Radisson Blu Fiji,4,Nadi,Fiji,Oceania,15200,300
-Sofitel Fiji Resort,4,Nadi,Fiji,Oceania,15200,280
-Hilton Auckland,4,Auckland,New Zealand,Oceania,16800,360
-Hilton Christchurch,4,Christchurch,New Zealand,Oceania,17100,280
-Le Meridien Tahiti,5,Papeete,French Polynesia,Oceania,15800,420
-InterContinental Tahiti,5,Papeete,French Polynesia,Oceania,15800,480
-Sofitel Tahiti Ia Ora,4,Papeete,French Polynesia,Oceania,15800,340
-Bora Bora Pearl,4,Bora Bora,French Polynesia,Oceania,16100,520
-Hilton Bora Bora,4,Bora Bora,French Polynesia,Oceania,16100,480
-Sofitel Bora Bora,5,Bora Bora,French Polynesia,Oceania,16100,560
-Meridien Moorea,4,Moorea,French Polynesia,Oceania,15950,400
-Shangri-La Dubai,5,Dubai,United Arab Emirates,Middle East,12400,480
-Burj Al Arab Dubai,5,Dubai,United Arab Emirates,Middle East,12400,680
-Emirates Towers Dubai,5,Dubai,United Arab Emirates,Middle East,12400,520
-Jumeirah Beach Hotel,5,Dubai,United Arab Emirates,Middle East,12400,580
-Atlantis The Palm Dubai,5,Dubai,United Arab Emirates,Middle East,12400,540
-Sofitel Jumeirah Dubai,5,Dubai,United Arab Emirates,Middle East,12400,420
-Hilton Dubai Jumeirah,4,Dubai,United Arab Emirates,Middle East,12400,360
-Intercontinental Dubai,4,Dubai,United Arab Emirates,Middle East,12400,340
-Marriott Marquis Dubai,4,Dubai,United Arab Emirates,Middle East,12400,320
-Radisson Blu Dubai,3,Dubai,United Arab Emirates,Middle East,12400,240
-Kempinski Abu Dhabi,5,Abu Dhabi,United Arab Emirates,Middle East,12600,520
-Emirates Palace Abu Dhabi,5,Abu Dhabi,United Arab Emirates,Middle East,12600,640
-Fairmont Bab Al Bahr,5,Abu Dhabi,United Arab Emirates,Middle East,12600,580
-Hilton Abu Dhabi,4,Abu Dhabi,United Arab Emirates,Middle East,12600,340
-Hyatt Capital Gate Abu Dhabi,4,Abu Dhabi,United Arab Emirates,Middle East,12600,360
-Jerusalem Hotel Luxury,5,Jerusalem,Israel,Middle East,11200,480
-David Citadel Hotel,5,Jerusalem,Israel,Middle East,11200,520
-American Colony Hotel,4,Jerusalem,Israel,Middle East,11200,340
-Dan Tel Aviv Hotel,5,Tel Aviv,Israel,Middle East,11400,480
-Hilton Tel Aviv,5,Tel Aviv,Israel,Middle East,11400,420
-Alma Beach Hotel,4,Tel Aviv,Israel,Middle East,11400,320
-Dedeman Istanbul,5,Istanbul,Turkey,Middle East,10000,380
-Four Seasons Istanbul,5,Istanbul,Turkey,Middle East,10000,520
-Ciragan Palace Istanbul,5,Istanbul,Turkey,Middle East,10000,580
-Hyatt Regency Istanbul,5,Istanbul,Turkey,Middle East,10000,420
-Peninsula Istanbul,4,Istanbul,Turkey,Middle East,10000,340
-Hilton Istanbul,4,Istanbul,Turkey,Middle East,10000,300
-Vault Hotel Istanbul,3,Istanbul,Turkey,Middle East,10000,180
-Movenpick Resort Antalya,4,Antalya,Turkey,Middle East,10100,280
-Hilton Antalya,4,Antalya,Turkey,Middle East,10100,260
-Titanic Deluxe Belek,4,Belek,Turkey,Middle East,10200,240
-Sharm El Sheikh Sofitel,5,Sharm El-Sheikh,Egypt,Africa,9800,360
-Hilton Sharm El Sheikh,4,Sharm El-Sheikh,Egypt,Africa,9800,280
-Movenpick Resort Sharm,4,Sharm El-Sheikh,Egypt,Africa,9800,320
-Cairo Hilton,5,Cairo,Egypt,Africa,10000,420
-Nile Ritz Carlton Cairo,5,Cairo,Egypt,Africa,10000,520
-Four Seasons Cairo,5,Cairo,Egypt,Africa,10000,480
-Sofitel Cairo,4,Cairo,Egypt,Africa,10000,340
-Marriott Cairo,4,Cairo,Egypt,Africa,10000,300
-Oberoi Hotel Luxor,5,Luxor,Egypt,Africa,10200,400
-Hilton Luxor,4,Luxor,Egypt,Africa,10200,300
-Movenpick Resort Hurghada,4,Hurghada,Egypt,Africa,9600,260
-Steigenberger Al Dau,4,Hurghada,Egypt,Africa,9600,240
-Kempinski Hotel Marrakech,5,Marrakech,Morocco,Africa,9100,420
-Four Seasons Marrakech,5,Marrakech,Morocco,Africa,9100,480
-Amanjena Marrakech,5,Marrakech,Morocco,Africa,9100,520
-Palais Namaskar,5,Marrakech,Morocco,Africa,9100,460
-Sofitel Marrakech,4,Marrakech,Morocco,Africa,9100,340
-Royal Mirage Marrakech,3,Marrakech,Morocco,Africa,9100,220
-Fairmont Royal Palm Marrakech,5,Marrakech,Morocco,Africa,9100,540
-Mamounia Palace Marrakech,5,Marrakech,Morocco,Africa,9100,500
-Hilton Marrakech,4,Marrakech,Morocco,Africa,9100,320
-La Mamounia Marrakech,4,Marrakech,Morocco,Africa,9100,300
-Sofitel Casablanca,4,Casablanca,Morocco,Africa,9200,320
-Hyatt Casablanca,4,Casablanca,Morocco,Africa,9200,280
-Hilton Casablanca,3,Casablanca,Morocco,Africa,9200,240
-Royal Mansour Fez,5,Fez,Morocco,Africa,9300,420
-Sofitel Fez,4,Fez,Morocco,Africa,9300,300
-Movenpick Resort Agadir,4,Agadir,Morocco,Africa,9400,260
-Sofitel Agadir,3,Agadir,Morocco,Africa,9400,220
-Serena Hotel Nairobi,5,Nairobi,Kenya,Africa,13200,420
-Safari Park Hotel,4,Nairobi,Kenya,Africa,13200,300
-Hilton Nairobi,4,Nairobi,Kenya,Africa,13200,280
-Sarova Stanley Nairobi,4,Nairobi,Kenya,Africa,13200,320
-Amboseli Serena Safari Lodge,4,Amboseli,Kenya,Africa,13400,380
-Taita Hills Safari Resort,4,Tsavo,Kenya,Africa,13600,320
-Four Seasons Safari Lodge Serengeti,5,Serengeti,Tanzania,Africa,13800,520
-Serengeti Serena Safari Lodge,5,Serengeti,Tanzania,Africa,13800,480
-Singita Serengeti,5,Serengeti,Tanzania,Africa,13800,640
-Ngorongoro Serena Safari Lodge,4,Ngorongoro,Tanzania,Africa,14000,420
-Mount Kilimanjaro Hotel,3,Moshi,Tanzania,Africa,14100,240
-Tarangire Serena Safari Lodge,4,Tarangire,Tanzania,Africa,14200,380
-Royal Livingstone Zambia,5,Livingstone,Zambia,Africa,14600,420
-Sun International Hotel Zambia,4,Livingstone,Zambia,Africa,14600,300
-Victoria Falls Hotel,5,Victoria Falls,Zimbabwe,Africa,14500,380
-Ilala Hotel Victoria Falls,4,Victoria Falls,Zimbabwe,Africa,14500,300
-Time Out Hotel,3,Victoria Falls,Zimbabwe,Africa,14500,180
-Kruger National Park Hotel,4,Kruger Park,South Africa,Africa,15200,280
-Sabi Sands Game Reserve,5,Kruger Park,South Africa,Africa,15300,520
-Singita Kruger,5,Kruger Park,South Africa,Africa,15300,620
-Mandela Suite Hotel,5,Johannesburg,South Africa,Africa,15100,420
-Saxon Boutique Hotel,5,Johannesburg,South Africa,Africa,15100,480
-Hilton Johannesburg,4,Johannesburg,South Africa,Africa,15100,300
-InterContinental Johannesburg,4,Johannesburg,South Africa,Africa,15100,340
-Mount Nelson Hotel Cape Town,5,Cape Town,South Africa,Africa,15600,480
-Ellerman House Cape Town,5,Cape Town,South Africa,Africa,15600,540
-One Only Cape Town,5,Cape Town,South Africa,Africa,15600,520
-Taj Cape Town,5,Cape Town,South Africa,Africa,15600,460
-Hilton Cape Town,4,Cape Town,South Africa,Africa,15600,360
-Mandarin Oriental Cape Town,5,Cape Town,South Africa,Africa,15600,500
-Hyatt Regency Cape Town,4,Cape Town,South Africa,Africa,15600,340
-Cullinan Hotel,4,Cape Town,South Africa,Africa,15600,320
-Radisson Blu Cape Town,3,Cape Town,South Africa,Africa,15600,240
-Ocean Club Camps Bay,3,Cape Town,South Africa,Africa,15600,280
-Belmond Charleston Place,5,Charleston,USA,North America,1900,420
-The Mills House Charleston,5,Charleston,USA,North America,1900,380
-Planters Inn Charleston,4,Charleston,USA,North America,1900,340
-Vendue Charleston,4,Charleston,USA,North America,1900,320
-The Vendue Art Hotel,4,Charleston,USA,North America,1900,360
-Hilton Head Island Resort,4,Hilton Head,USA,North America,2100,320
-Palmetto Dunes Resort,4,Hilton Head,USA,North America,2100,340
-Edisto Island Hotel,3,Edisto Island,USA,North America,2200,260
-The Plaza Resort Orlando,4,Orlando,USA,North America,2100,280
-Walt Disney World Yacht Club,5,Orlando,USA,North America,2100,420
-Grand Floridian Resort,5,Orlando,USA,North America,2100,480
-Magic Kingdom Hotel,5,Orlando,USA,North America,2100,520
-Universal's Royal Pacific,5,Orlando,USA,North America,2100,400
-Four Seasons Orlando,5,Orlando,USA,North America,2100,560
-The Ritz-Carlton Orlando,5,Orlando,USA,North America,2100,540
-Waldorf Astoria Orlando,5,Orlando,USA,North America,2100,500
-JW Marriott Orlando,4,Orlando,USA,North America,2100,360
-Hyatt Regency Orlando,4,Orlando,USA,North America,2100,320
-Hilton Orlando,4,Orlando,USA,North America,2100,300
-Gaylord Palms Hotel,4,Orlando,USA,North America,2100,280
-The Palms Miami Beach,4,Miami Beach,USA,North America,1850,380
-Delano Miami Beach,5,Miami Beach,USA,North America,1850,420
-The Betsy Hotel,5,Miami Beach,USA,North America,1850,460
-Setai Miami Beach,5,Miami Beach,USA,North America,1850,520
-SLS Miami Beach,5,Miami Beach,USA,North America,1850,480
-Fontainebleau Miami Beach,5,Miami Beach,USA,North America,1850,440
-Eden Roc Miami Beach,5,Miami Beach,USA,North America,1850,400
-The Ritz-Carlton Miami Beach,5,Miami Beach,USA,North America,1850,500
-Mandarin Oriental Miami,5,Miami,USA,North America,1800,540
-Wynwood Boutique Hotel,4,Miami,USA,North America,1800,320
-The Biltmore Miami,5,Miami,USA,North America,1800,480
-Hurricane Club Miami,4,Miami,USA,North America,1800,340
-Puerto Rico El Conquistador,4,Fajardo,Puerto Rico,North America,2400,320
-Copamarina Beach Resort,4,Guánica,Puerto Rico,North America,2450,300
-Club Med Cancun,4,Cancun,Mexico,North America,2000,280
-Hotel Zone Cancun,4,Cancun,Mexico,North America,2000,260
-Hyatt Ziva Cancun,5,Cancun,Mexico,North America,2000,420
-Grand Palladium Cancun,5,Cancun,Mexico,North America,2000,380
-The Ritz-Carlton Cancun,5,Cancun,Mexico,North America,2000,520
-Hilton Cancun,4,Cancun,Mexico,North America,2000,340
-Meliá Cancun,4,Cancun,Mexico,North America,2000,300
-Palace Resorts Cancun,4,Cancun,Mexico,North America,2000,280
-Barcelo Maya Cancun,3,Cancun,Mexico,North America,2000,220
-Grand Bahia Principe Cancun,5,Cancun,Mexico,North America,2000,480
-Hotel Xcaret Mexico,5,Xcaret,Mexico,North America,2020,420
-Barcelo Maya Colonial,4,Playa del Carmen,Mexico,North America,2010,300
-Barcelo Maya Caribe,4,Playa del Carmen,Mexico,North America,2010,320
-Azul Fives Hotel,5,Playa del Carmen,Mexico,North America,2010,480
-Allegro Playacar,4,Playa del Carmen,Mexico,North America,2010,340
-Palace Resorts Playa,4,Playa del Carmen,Mexico,North America,2010,280
-Grand Palladium Playa,5,Playa del Carmen,Mexico,North America,2010,400
-Hyatt Ziva Playa,5,Playa del Carmen,Mexico,North America,2010,420
-Xcaret Hotel Mexico,4,Playa del Carmen,Mexico,North America,2010,380
-Secrets Maroma Beach,5,Playa del Carmen,Mexico,North America,2010,520
-Oasis Tulum,5,Tulum,Mexico,North America,2030,460
-Aman Tulum,5,Tulum,Mexico,North America,2030,580
-Grand Palladium Tulum,4,Tulum,Mexico,North America,2030,340
-Barcelo Maya Tulum,3,Tulum,Mexico,North America,2030,240
-Hilton Tulum,4,Tulum,Mexico,North America,2030,300
-Hotel Xcaret Tulum,4,Tulum,Mexico,North America,2030,360
-Paradisus Playa del Carmen,5,Playa del Carmen,Mexico,North America,2010,480
-Cozumel Island Resort,4,Cozumel,Mexico,North America,2050,320
-Hilton Cozumel,4,Cozumel,Mexico,North America,2050,300
-Atlantis Resort Cancun,5,Cancun,Mexico,North America,2000,520
-Xcaret Park Hotel,4,Xcaret,Mexico,North America,2020,340
-Mayan Riviera Resort,3,Riviera Maya,Mexico,North America,2015,200
-Puerto Vallarta Resort,4,Puerto Vallarta,Mexico,North America,2200,280
-Hilton Puerto Vallarta,4,Puerto Vallarta,Mexico,North America,2200,300
-Grand Palladium Puerto Vallarta,4,Puerto Vallarta,Mexico,North America,2200,320
-Secrets Puerto Vallarta,5,Puerto Vallarta,Mexico,North America,2200,420
-Banyan Tree Puerto Vallarta,5,Puerto Vallarta,Mexico,North America,2200,520
-Marriott Puerto Vallarta,4,Puerto Vallarta,Mexico,North America,2200,340
-Conrad Cabos,5,Los Cabos,Mexico,North America,3200,520
-Hilton Los Cabos,5,Los Cabos,Mexico,North America,3200,480
-Sheraton Los Cabos,5,Los Cabos,Mexico,North America,3200,420
-One Only Palmilla,5,Los Cabos,Mexico,North America,3200,640
-Pueblo Bonito Sunset,5,Los Cabos,Mexico,North America,3200,480
-Marquis Los Cabos,5,Los Cabos,Mexico,North America,3200,540
-Club Med Mexico,4,Puerto Escondido,Mexico,North America,2400,300
-Camisa Vieja Oaxaca,4,Oaxaca,Mexico,North America,2600,240
-Hyatt Mexico City,5,Mexico City,Mexico,North America,2800,420
-Four Seasons Mexico City,5,Mexico City,Mexico,North America,2800,520
-Mandarin Oriental Mexico,5,Mexico City,Mexico,North America,2800,480
-Presidente Mexico City,4,Mexico City,Mexico,North America,2800,340
-Hilton Mexico City,4,Mexico City,Mexico,North America,2800,300
-Sheraton Mexico City,4,Mexico City,Mexico,North America,2800,280
-Las Vegas Palms Casino,5,Las Vegas,USA,North America,3000,440
-Caesars Palace Las Vegas,5,Las Vegas,USA,North America,3000,460
-The Venetian Las Vegas,5,Las Vegas,USA,North America,3000,480
-The Cosmopolitan Vegas,5,Las Vegas,USA,North America,3000,520
-Wynn Las Vegas,5,Las Vegas,USA,North America,3000,540
-Mandarin Oriental Las Vegas,5,Las Vegas,USA,North America,3000,560
-The Aria Las Vegas,5,Las Vegas,USA,North America,3000,500
-Mandalay Bay Las Vegas,4,Las Vegas,USA,North America,3000,380
-Luxor Las Vegas,4,Las Vegas,USA,North America,3000,340
-New York New York Vegas,4,Las Vegas,USA,North America,3000,320
-Hilton Las Vegas,3,Las Vegas,USA,North America,3000,240
-Park MGM Las Vegas,5,Las Vegas,USA,North America,3000,450
-The Ritz-Carlton Lake Tahoe,5,Lake Tahoe,USA,North America,3400,520
-Hyatt Centric San Francisco,5,San Francisco,USA,North America,3500,480
-Fairmont San Francisco,5,San Francisco,USA,North America,3500,540
-InterContinental San Francisco,5,San Francisco,USA,North America,3500,520
-Mandarin Oriental San Francisco,5,San Francisco,USA,North America,3500,560
-Grand Hyatt San Francisco,4,San Francisco,USA,North America,3500,420
-Hilton San Francisco,4,San Francisco,USA,North America,3500,360
-Marriott San Francisco,4,San Francisco,USA,North America,3500,340
-Hotel Drisco San Francisco,4,San Francisco,USA,North America,3500,380
-Four Seasons Los Angeles,5,Los Angeles,USA,North America,3400,520
-Sunset Tower Hotel LA,5,Los Angeles,USA,North America,3400,480
-Chateau Marmont Los Angeles,5,Los Angeles,USA,North America,3400,460
-The Ritz-Carlton LA,5,Los Angeles,USA,North America,3400,540
-Sofitel Los Angeles,4,Los Angeles,USA,North America,3400,380
-Hilton Los Angeles,4,Los Angeles,USA,North America,3400,340
-InterContinental Los Angeles,5,Los Angeles,USA,North America,3400,420
-J.W. Marriott LA,5,Los Angeles,USA,North America,3400,500
-Beverly Hills Hotel,5,Beverly Hills,USA,North America,3400,480
-The Peninsula Beverly Hills,5,Beverly Hills,USA,North America,3400,560
-Four Seasons Beverly Hills,5,Beverly Hills,USA,North America,3400,540
-Regent Beverly Wilshire,5,Beverly Hills,USA,North America,3400,580
-Sofitel Beverly Hills,4,Beverly Hills,USA,North America,3400,420
-Hilton Beverly Hills,4,Beverly Hills,USA,North America,3400,380
-Sunset Plaza Hotel,4,Los Angeles,USA,North America,3400,320
-Grand Hotel Los Angeles,3,Los Angeles,USA,North America,3400,260
-Hotel Shattuck Plaza Berkeley,4,Berkeley,USA,North America,3500,300
-Agate Cove Inn Mendocino,4,Mendocino,USA,North America,3600,280
-Hyatt Maui,5,Wailea,USA,North America,5100,580
-Fairmont Kea Lani,5,Wailea,USA,North America,5100,540
-Grand Wailea Resort,5,Wailea,USA,North America,5100,480
-Andaz Maui Resort,4,Wailea,USA,North America,5100,360
-Hilton Maui,4,Wailea,USA,North America,5100,340
-Hotel Hanalei Bay,4,Kauai,USA,North America,5150,360
-Hyatt Kauai,5,Kauai,USA,North America,5150,480
-Grand Hyatt Kauai,5,Kauai,USA,North America,5150,520
-Princeville Resort,5,Kauai,USA,North America,5150,500
-Sheraton Kauai,4,Kauai,USA,North America,5150,360
-Hilton Hawaiian Village Waikiki,4,Honolulu,USA,North America,5100,380
-Moana Surfrider Waikiki,4,Honolulu,USA,North America,5100,420
-Royal Hawaiian Waikiki,5,Honolulu,USA,North America,5100,480
-Halekulani Honolulu,5,Honolulu,USA,North America,5100,560
-Outrigger Waikiki,4,Honolulu,USA,North America,5100,340
-Sheraton Waikiki,4,Honolulu,USA,North America,5100,360
-Hyatt Regency Waikiki,4,Honolulu,USA,North America,5100,340
-Hilton Honolulu,3,Honolulu,USA,North America,5100,280
-Trump Waikiki,5,Honolulu,USA,North America,5100,540
-Marriott Waikiki,4,Honolulu,USA,North America,5100,380
-Big Island Mauna Lani,5,Kohala Coast,USA,North America,5200,520
-Hilton Big Island,4,Kohala Coast,USA,North America,5200,380
-Fairmont Big Island,5,Kohala Coast,USA,North America,5200,480
-Four Seasons Big Island,5,Kohala Coast,USA,North America,5200,560
-Moana Lani Resort,4,Kohala Coast,USA,North America,5200,420
-Mauna Kea Beach Hotel,5,Kohala Coast,USA,North America,5200,540
-The Ritz-Carlton Kapalua,5,Kapalua,USA,North America,5120,500
-Montage Kapalua,5,Kapalua,USA,North America,5120,540
-Grand Hotel Miami,4,Miami,USA,North America,1800,300
-Epic Hotel Miami,4,Miami,USA,North America,1800,320
-SLS Brickell Miami,5,Miami,USA,North America,1800,460
-Miami Beachfront Hotel,4,Miami,USA,North America,1800,340
-Biscayne Bay Hotel,3,Miami,USA,North America,1800,220
-Kimpton Hotel Miami,4,Miami,USA,North America,1800,360
-Wynwood Arts Hotel,4,Miami,USA,North America,1800,340
-Hilton Miami Downtown,3,Miami,USA,North America,1800,260
-Santa Monica Pier Hotel,4,Santa Monica,USA,North America,3450,380
-Hilton Santa Monica,4,Santa Monica,USA,North America,3450,360
-The Fairmont Miramar,5,Santa Monica,USA,North America,3450,520
-Hotel Bel Air,5,Beverly Hills,USA,North America,3400,580
-Mandarin Oriental Boston,5,Boston,USA,North America,1400,520
-The Ritz-Carlton Boston,5,Boston,USA,North America,1400,540
-Four Seasons Boston,5,Boston,USA,North America,1400,560
-Fairmont Copley Plaza,5,Boston,USA,North America,1400,480
-Hyatt Regency Boston,4,Boston,USA,North America,1400,380
-Hilton Boston,4,Boston,USA,North America,1400,340
-Marriott Boston,4,Boston,USA,North America,1400,320
-InterContinental Boston,4,Boston,USA,North America,1400,400
-The Peninsula New York,5,New York City,USA,North America,560,600
-Four Seasons New York,5,New York City,USA,North America,560,640
-Park Hyatt New York,5,New York City,USA,North America,560,580
-Mandarin Oriental New York,5,New York City,USA,North America,560,620
-St Regis New York,5,New York City,USA,North America,560,660
-Carlyle New York,5,New York City,USA,North America,560,540
-The Plaza New York,5,New York City,USA,North America,560,560
-Waldorf Astoria New York,5,New York City,USA,North America,560,620
-Trump Tower New York,5,New York City,USA,North America,560,580
-InterContinental New York,4,New York City,USA,North America,560,420
-Hilton New York,4,New York City,USA,North America,560,360
-Marriott Marquis New York,4,New York City,USA,North America,560,400
-Renaissance New York,4,New York City,USA,North America,560,380
-Kimpton New York,4,New York City,USA,North America,560,420
-Sofitel New York,4,New York City,USA,North America,560,440
-Hyatt Centric New York,4,New York City,USA,North America,560,380
-Pod New York,2,New York City,USA,North America,560,140
-Candlewood Suites New York,3,New York City,USA,North America,560,260
-Astoria Hotel New York,3,New York City,USA,North America,560,220
-Chelsea Hotel New York,4,New York City,USA,North America,560,360
-Chambers Hotel New York,4,New York City,USA,North America,560,400
-The Standard New York,4,New York City,USA,North America,560,380
-Soho House New York,5,New York City,USA,North America,560,500
-1 Hotel Central Park,5,New York City,USA,North America,560,640
-Equinox Hotel New York,5,New York City,USA,North America,560,620
-Pendry New York,5,New York City,USA,North America,560,580
-Aman New York,5,New York City,USA,North America,560,700
-Rosewood New York,5,New York City,USA,North America,560,680
-Thompson Central Park,5,New York City,USA,North America,560,600
-The Plaza Hotel New York,5,New York City,USA,North America,560,620
-Lotte New York Palace,5,New York City,USA,North America,560,560
-JW Marriott New York,5,New York City,USA,North America,560,480
-Conrad New York,5,New York City,USA,North America,560,520
-Langham Place New York,5,New York City,USA,North America,560,580
+1001 John Smith 5010 shirt 25 3 
+1002 Mary Jones 5011 pants 35 2 
+1003 James Brown 5012 jacket 50 1 
+1004 Anna Lee 5013 dress 40 2 
+1005 Abigail Adams 5020 blouse 45 2 
+1006 Robert Miller 5021 skirt 30 1 
+1007 David Wilson 5022 sweater 20 4 
+1008 Emma Johnson 5023 jeans 25 3 
+1009 Michael Taylor 5010 shirt 25 2 
+1010 Sarah Davis 5011 pants 35 1 
+1011 Daniel Clark 5012 jacket 50 2 
+1012 Laura Smith 5013 dress 40 1 
+1013 William Jones 5020 blouse 45 3 
+1014 Emily Brown 5021 skirt 30 2 
+1015 Thomas Lee 5022 sweater 20 3 
+1016 Sophia Adams 5023 jeans 25 2 
+1017 Jacob Miller 5010 shirt 25 4 
+1018 Olivia Wilson 5011 pants 35 2 
+1019 Ethan Johnson 5012 jacket 50 1 
+1020 Isabella Taylor 5013 dress 40 2
+1021 Noah Clark 5020 blouse 45 1 
+1022 Mia Smith 5021 skirt 30 3 
+1023 Liam Jones 5022 sweater 20 2 
+1024 Ava Brown 5023 jeans 25 4 
+1025 Alexander Lee 5010 shirt 25 3 
+1026 Emma Adams 5011 pants 35 2 
+1027 Jacob Miller 5012 jacket 50 2 
+1028 Sophia Wilson 5013 dress 40 1 
+1029 Ethan Johnson 5020 blouse 45 2 
+1030 Isabella Taylor 5021 skirt 30 2
+1031 Olivia Clark 5022 sweater 20 4 
+1032 Noah Smith 5023 jeans 25 3 
+1033 Ava Jones 5010 shirt 25 2 
+1034 Liam Brown 5011 pants 35 1 
+1035 Mia Lee 5012 jacket 50 3 
+1036 Alexander Adams 5013 dress 40 2 
+1037 Emma Wilson 5020 blouse 45 1 
+1038 Jacob Taylor 5021 skirt 30 2 
+1039 Sophia Clark 5022 sweater 20 3 
+1040 Ethan Smith 5023 jeans 25 2 
+1041 Isabella Jones 5010 shirt 25 4 
+1042 Noah Brown 5011 pants 35 3 
+1043 Ava Lee 5012 jacket 50 2 
+1044 Liam Adams 5013 dress 40 1 
+1045 Mia Wilson 5020 blouse 45 2 
+1046 Alexander Taylor 5021 skirt 30 1 
+1047 Emma Clark 5022 sweater 20 2 
+1048 Jacob Smith 5023 jeans 25 3 
+1049 Sophia Jones 5010 shirt 25 1 
+1050 Ethan Brown 5011 pants 35 2 
+1051 Isabella Lee 5012 jacket 50 1 
+1052 Noah Adams 5013 dress 40 2 
+1053 Ava Wilson 5020 blouse 45 3 
+1054 Liam Taylor 5021 skirt 30 2 
+1055 Mia Clark 5022 sweater 20 4 
+1056 Alexander Smith 5023 jeans 25 1 
+1057 Emma Jones 5010 shirt 25 2 
+1058 Jacob Brown 5011 pants 35 1 
+1059 Sophia Lee 5012 jacket 50 2 
+1060 Ethan Adams 5013 dress 40 3
+1029 Ethan Johnson 5013 dress 40 2
+1030 Isabella Taylor 5012 jacket 50 2 
+1031 Olivia Clark 5011 pants 35 4 
+1032 Noah Smith 5010 shirt 25 3 
+1033 Ava Jones 5023 jeans 25 2 
+1034 Liam Brown 5022 sweater 20 1 
+1035 Mia Lee 5021 skirt 30 3 
+1036 Alexander Adams 5020 blouse 45 2 
+1037 Emma Wilson 5013 dress 40 1 
+1038 Jacob Taylor 5012 jacket 50 2 
+1039 Sophia Clark 5011 pants 35 3 
+1040 Ethan Smith 5010 shirt 25 2 
+1041 Isabella Jones 5023 jeans 25 4 
+1042 Noah Brown 5022 sweater 20 3 
+1043 Ava Lee 5021 skirt 30 2 
+1044 Liam Adams 5020 blouse 45 1 
+1045 Mia Wilson 5013 dress 40 2 
+1046 Alexander Taylor 5012 jacket 50 1 
+1047 Emma Clark 5022 sweater 20 2 
+1048 Jacob Smith 5023 jeans 25 3 
+1049 Sophia Jones 5010 shirt 25 1 
+1050 Ethan Brown 5011 pants 35 2 
+1051 Isabella Lee 5021 skirt 30 1 
+1052 Noah Adams 5020 blouse 45 2 
+1053 Ava Wilson 5011 pants 35 3 
+1054 Liam Taylor 5023 jeans 25 2 
+1055 Mia Clark 5010 shirt 25 4 
+1056 Alexander Smith 5022 sweater 20 1 
+1057 Emma Jones 5021 skirt 30 2 
+1058 Jacob Brown 5020 blouse 45 1 
+1059 Sophia Lee 5012 jacket 50 2 
+1060 Ethan Adams 5013 dress 40 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
